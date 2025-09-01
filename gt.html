@@ -1,0 +1,295 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+		<style>
+			.details{
+				text-indent:50px;
+				text-align:justify;
+				font-size:18px;
+			}
+			.travel-container{
+				display:flex;
+				justify-content:center;
+				gap:2px;
+				flex-wrap:wrap;
+			}
+			.travel img{
+				max-width:220px;
+				height:auto;
+			}
+			.fill{
+				background-image:url("worldmap.jpg");
+				background-repeat:no-repeat;
+				background-position:center;
+				
+			}
+
+			h2{
+				text-align:center;
+				font-family:sans-serif;
+			}
+
+		
+		</style>
+
+	</head>
+	<body>
+		<nav class="navbar navbar-inverse">
+		  <div class="container-fluid">
+			<ul class="nav navbar-nav navbar-right">
+			  <li class="active"><a href="#">Home</a></li>
+			  <li class="dropdown">
+				<a class="dropdown-toggle" data-toggle="dropdown" href="#">Packages
+				<span class="caret"></span></a>
+				<ul class="dropdown-menu">
+				  <li class="dropdown-header">Asia</li>
+				  <li><a href="#">Bali</a></li>
+				  <li><a href="#">Singapore</a></li>
+				  <li><a href="#">Japan</a></li>
+				  <li><a href="#">South Korea</a></li>
+				  <li><a href="#">Malaysia</a></li>
+				  <li class="divider"></li>
+				  <li class="dropdown-header">America</li>
+				  <li><a href="#">Alaska</a></li>
+				  <li><a href="#">South America</a></li>
+				  <li><a href="#">Central America</a></li>
+				  <li><a href="#">USA</a></li>
+				  <li><a href="#">Canada</a></li>
+				  <li class="divider"></li>
+				  <li class="dropdown-header">Europe</li>
+				  <li><a href="#">France</a></li>
+				  <li><a href="#">Italy</a></li>
+				  <li><a href="#">London</a></li>
+				  <li><a href="#">Switzerland</a></li>
+				  <li><a href="#">Germany</a></li>
+				  <li class="divider"></li>
+				  <li class="dropdown-header">Middle East</li>
+				  <li><a href="#">Dubai</a></li>
+				  <li><a href="#">Egypt</a></li>
+				  <li><a href="#">UAE</a></li>
+				  <li><a href="#">Russia</a></li>
+				  <li><a href="#">Portugal</a></li>
+				  <li class="divider"></li>
+				  <li class="dropdown-header">Islands</li>
+				  <li><a href="#">Madagascar</a></li>
+				  <li><a href="#">Maldives</a></li>
+				  <li><a href="#">Reunion</a></li>
+				  <li><a href="#">Sri Lanka</a></li>
+				  <li><a href="#">Mauritius</a></li>
+				</ul>
+			  </li>
+			  <li class="dropdown">
+				<a class="dropdown-toggle" data-toggle="dropdown" href="#">Company
+				<span class="caret"></span></a>
+				<ul class="dropdown-menu">
+				  <li><a href="#">Mumbai</a></li>
+				  <li><a href="#">Hyderbad</a></li>
+				  <li><a href="#">Bangalore</a></li>
+				  <li><a href="#">Chennai</a></li>
+				  <li><a href="#">Pondicherry</a></li>
+				  <li><a href="#">Coimbatore</a></li>
+				  <li><a href="#">Madurai</a></li>
+				  <li><a href="#">Kanyakumari</a></li>
+				  <li><a href="#">Kochi</a></li>
+				  <li><a href="#">Trichy</a></li>
+				  <li><a href="#">Vellore</a></li>
+				</ul>
+			  </li>
+			  <li><a href="#">Group Tours</a></li>
+			  <li><a href="#">Contact</a></li>
+			</ul>
+		  </div>
+		</nav>
+
+		<div class="container">
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+						<li data-target="#myCarousel" data-slide-to="1"></li>
+						<li data-target="#myCarousel" data-slide-to="2"></li>
+						<li data-target="#myCarousel" data-slide-to="3"></li>
+					</ol>
+				<div class="carousel-inner">
+					<div class="item active">
+						<img src="C:\Users\HP\Downloads\jungle.jpg" alt="jungle" style="width:100%;">
+						<div class="carousel-caption">
+						<p style="font-size:40px;">For the last decade, GT Holidays have organized more than 50,000 international itineraries.</p>
+						</div>
+					</div>
+					<div class="item">
+						<img src="C:\Users\HP\Downloads\mountains.jpg" alt="mountains" style="width:100%;">
+						<div class="carousel-caption">
+						<p style="font-size:40px;">Each and every itinerary is customized according to the taste of the customers.</p>
+						</div>
+					</div>
+					<div class="item">
+							<img src="C:\Users\HP\Downloads\sea.jpg" alt="sea" style="width:100%;">
+							<div class="carousel-caption">
+								<p style="font-size:40px;">GT Holidays holds record of great customer satisfaction and all customers are retained with us.</p>
+							</div>
+							
+					</div>
+					<div class="item">
+							<img src="C:\Users\HP\Downloads\city.jpg" alt="city" style="width:100%;">
+							<div class="carousel-caption">
+								<p style="font-size:40px;">Discover with GT Holidays,the No.1 travel brand in South India.</p>
+							</div>
+							
+					</div>
+				</div>
+				
+				<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left"></span>
+				</a>
+				<a class="right carousel-control" href="#myCarousel" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right"></span>
+				</a>
+			</div>	
+		</div>
+		
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+					<h2>Welcome to GT Holidays</h2><br>
+					<p class="details">GT Holidays Pvt. Ltd built on this strong foundation aims to provide great customer satisfaction and an exemplary holiday experience. Planning a once in a lifetime holiday or a yearly corporate 
+					retreat? No problem! GT Holidays can get you what you want and in the minimal time. One of the best destination management companies in South India, it has the experience and infrastructure to handle
+					any customer demand. In addition to destination management, GT Holidays also plans corporate tours, incentive trips, college/school excursions, business travel, arranges car/railway & hotel bookings 
+					and much, much more.</p>
+				</div>
+			</div>
+		</div>
+		<br><br>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+					<h2>Stress-Free Holidays with GT</h2><br>
+					<div class="travel-container">
+						<div class="travel">
+						<img src="img1.jpeg" alt="nocostemi" class="img-responsive">
+						</div>
+						<div class="travel">
+							<img src="img2.jpeg" alt="zerorupeesint" class="img-responsive">
+						</div>
+						<div class="travel">
+							<img src="img3.jpeg" alt="6monthsemi" class="img-responsive">
+						</div>
+						<div class="travel">
+							<img src="img4.jpeg" alt="zeroprocessing" class="img-responsive">
+						</div>
+						<div class="travel">
+							<img src="img5.jpeg" alt="stressfree" class="img-responsive">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br><br>
+		<section class="fill">
+			<h2>Book Your Dream Vacay Today!</h2>
+			<br>
+			<div class="container">
+							<form class="form-horizontal">
+								<div class="form-group">
+									<div class="col-sm-offset-8 col-sm-4">
+										<input type="text" class="form-control" id="fname" required placeholder="Name*" name="text">
+										
+									</div>
+								</div>
+								<div class="form-group">
+									<div class="col-sm-offset-8 col-sm-4">
+										<input type="email" class="form-control" id="email" required placeholder="Email*" name="email">
+										
+									</div>
+								</div>
+								<div class="form-group">
+									<div class="col-sm-offset-8 col-sm-4">
+										<input type="text" class="form-control" id="city" required placeholder="City of Residence*" name="text">
+										
+									</div>
+								</div>
+								<div class="form-group">
+									<div class="col-sm-offset-8 col-sm-4">
+										<input type="text" class="form-control" id="phn" required placeholder="Phone Number*" name="text">
+										
+									</div>
+								</div>
+								<div class="form-group">
+									<div class="col-sm-offset-8 col-sm-4">
+										<input type="text" class="form-control" id="place" required placeholder="Travel Destination*" name="text">
+										
+									</div>
+								</div>
+								<div class="form-group">
+									<div class="col-sm-offset-8 col-sm-4">
+										<input type="text" class="form-control" id="day" required placeholder="Date of Travel*" name="text">
+									</div>
+								</div>
+								<div class="form-group">
+									<div class="col-sm-offset-8 col-sm-4">
+										<input type="number" class="form-control" id="people" required placeholder="No.of People*" name="number">
+									</div>
+								</div>
+								<div class="form-group">
+									<div class="col-sm-offset-8 col-sm-4">
+										<input type="text" class="form-control" id="vac" required placeholder="Vacation Type*" name="text">
+									</div>
+								</div>
+								<div class="form-group">
+									<div class="col-sm-offset-9 col-sm-12">
+										<button type="submit" class="btn btn-success">Submit</button>
+										<button type="reset" class="btn btn-danger">Cancel</button>
+									</div>
+								</div>
+								
+							</form>
+						</div>
+								
+		</section>
+		<br><br>
+		
+			<div class="container-fluid" style="background-color:black; color:white; padding:50px">
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<div class="last">
+							<table class="table" style="color:white;">
+								<thead>
+									<th>Corporate Office</th>
+									<th>Head Office</th>
+									<th>Our Branches</th>
+								</thead><hr>
+								<tbody>
+									<tr>
+										<td>GT Holidays Pvt LTD,<br>
+											Novel Tech Park,<br>
+											Opposite to 1 MG Mall,<br>
+											MG Road, Bangalore – 560042<br>
+											Karnataka, India.<br>
+										</td>
+										<td>GT Holidays Pvt LTD,<br>
+											No.1, Gemini Parsn,<br>
+											Kodambakkam High Road,<br>
+											Nungambakkam, Chennai – 600006<br>
+											Tamil Nadu, India.<br>
+										</td>
+										<td>Mumbai<br>Hyderbad<br>Bangalore<br>Chennai<br>Coimbatore<br>Erode<br>Salem</td>
+																						
+									</tr>
+									<tr>
+										<td>Call us<br>+91 9940882200</td>
+										<td>Email us<br>mail@gtholidays.in</td>
+										<td>Follow us<br><a href="https://www.facebook.com/gtholidays" target="blanks">Facebook</a><br><a href="https://www.instagram.com/gtholidays.in/" target="blanks">Instagram</a><br><a href="https://www.youtube.com/c/GTHolidaysLtd" target="blanks">YouTube</a></td>
+									</tr>
+								</tbody>
+							</table>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+	</body>
+
+</html>
